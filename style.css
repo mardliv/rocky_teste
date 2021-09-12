@@ -1,0 +1,264 @@
+
+body{
+  background-color: #F4DFD0;
+  font-family: inherit;
+  color: black;
+  margin: 0;
+}
+
+header{
+ text-align: center;
+}
+
+a{
+  font-size: 20px;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: right;
+  font-family:inherit;
+}
+
+#Produtos{
+  margin-top: 50px;
+  margin-right: 550px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+#Clientes{
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 700px;
+  vertical-align: top;
+}
+
+#quemsomos{
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 550px;
+  vertical-align: top;
+}
+
+#menu ul{
+  max-width: 800px;
+  list-style: none;
+  padding: 20px;
+  background-color: #E5B299;
+}
+
+#menu ul :hover{
+  background-color: #FFEEDB;
+}
+
+#menu ul li{
+  display: inline;
+}
+
+#menu ul li a{
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #362222;
+}
+
+#menu ul li a :hover{
+  background-color: #FFEEDB;
+}
+
+#menu ul li :last-child a{
+  float: right;
+}
+
+.h1contato{
+  margin-top: 50px;
+  margin-left: 600px;
+}
+
+.caixa{
+  margin-top: 90px;
+  margin-left: 630px;
+}
+footer{
+  background-color: #F4DFD0;
+  font-family: inherit;
+  color: black;
+}
+
+.logo{
+  float: left;
+  display: inline-block;
+}
+
+hr{
+    border-width: 0;
+  	height: 0px;
+  	border-top-width: 0px;
+}
+
+h1, h2, h3{
+  margin: 2px;
+  font-family: inherit;
+  font-size: 40px;
+}
+
+h5{
+  font-style: italic;
+}
+
+.botao{
+  color: black;
+  padding: 10px 30px;
+  background-color: #9E7777;
+  font-size: .9em;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+
+.galeria{
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  position:inherit;
+  overflow: hidden;
+}
+
+.galeria2{
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  position:inherit;
+  overflow: hidden;
+}
+
+.foto{
+  position: absolute;
+  right:0;
+  left: 15%;
+  opacity: 0;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.foto2{
+  position: absolute;
+  right:0;
+  right: 10%;
+  opacity: 0;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+  25%{
+    opacity: 1;
+    transform: scale(1.1,1.1);
+  }
+  50%{
+    opacity: scale(0);
+  }
+}
+
+.foto:nth-child(1){
+}
+.foto:nth-child(2){
+  animation-delay: 5s;
+}
+.foto:nth-child(3){
+  animation-delay: 10s;
+}
+.foto:nth-child(4){
+  animation-delay: 15s;
+}
+
+.foto2:nth-child(1){
+}
+.foto2:nth-child(2){
+  animation-delay: 5s;
+}
+.foto2:nth-child(3){
+  animation-delay: 10s;
+}
+.foto2:nth-child(4){
+  animation-delay: 15s;
+}
+
+.insta{
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.rede{
+  font-size: 20px;
+  margin-left: 235px;
+}
+
+.twitter{
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.rede2{
+  font-size: 20px;
+  margin-left: 650px;
+  margi
+}
+
+.wpp{
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.rede3{
+  font-size: 20px;
+  margin-left: 1130px;
+}
+
+.orc{
+  margin-top: 50px;
+  margin-left: 600px;
+}
+
+.imgp{
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+.clientes{
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+#txt{
+  margin-top: 60px;
+  margin-left: 700px;
+}
+
+p{
+  font-style: italic;
+  font-size: 25px;
+}
+
+.qs{
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.texp{
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
